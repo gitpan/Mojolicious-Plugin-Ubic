@@ -1,0 +1,32 @@
+[Fri Nov  1 15:07:05 2013] [info] Base path: /some/path
+[Fri Nov  1 15:07:05 2013] [debug] GET "/some/path/services".
+[Fri Nov  1 15:07:05 2013] [debug] Routing to a callback.
+[Fri Nov  1 15:07:05 2013] [error] ubic is not configured, run 'ubic-admin setup' first
+
+[Fri Nov  1 15:07:05 2013] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov  1 15:07:05 2013] [debug] Template "exception.html.ep" not found.
+[Fri Nov  1 15:07:05 2013] [debug] Rendering inline template.
+[Fri Nov  1 15:07:05 2013] [debug] Rendering inline template.
+[Fri Nov  1 15:07:05 2013] [debug] 500 Internal Server Error (0.028294s, 35.343/s).
+[Fri Nov  1 15:07:25 2013] [info] Base path: /some/path
+[Fri Nov  1 15:07:25 2013] [debug] GET "/some/path/services".
+[Fri Nov  1 15:07:25 2013] [debug] Routing to a callback.
+[Fri Nov  1 15:07:25 2013] [error] ubic is not configured, run 'ubic-admin setup' first
+
+[Fri Nov  1 15:07:25 2013] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov  1 15:07:25 2013] [debug] Template "exception.html.ep" not found.
+[Fri Nov  1 15:07:25 2013] [debug] Rendering inline template.
+[Fri Nov  1 15:07:25 2013] [debug] Rendering inline template.
+[Fri Nov  1 15:07:25 2013] [debug] 500 Internal Server Error (0.031380s, 31.867/s).
+[Fri Nov  1 15:09:13 2013] [info] Base path: /some/path
+[Fri Nov  1 15:09:13 2013] [debug] GET "/some/path/services".
+[Fri Nov  1 15:09:13 2013] [debug] Routing to a callback.
+[Fri Nov  1 15:09:13 2013] [debug] 200 OK (0.001934s, 517.063/s).
+[Fri Nov  1 15:10:28 2013] [info] Base path: /2a66e59de545af69dab4f407e6201d13
+[Fri Nov  1 15:10:28 2013] [debug] GET "/some/path/services".
+[Fri Nov  1 15:10:28 2013] [debug] Routing to a callback.
+[Fri Nov  1 15:10:28 2013] [debug] 200 OK (0.001879s, 532.198/s).
+[Fri Nov  1 15:10:46 2013] [info] Base path: /8d4d41801766faf83326df6e66806f89
+[Fri Nov  1 15:10:46 2013] [debug] GET "/some/path/services".
+[Fri Nov  1 15:10:46 2013] [debug] Routing to a callback.
+[Fri Nov  1 15:10:46 2013] [debug] 200 OK (0.001925s, 519.481/s).

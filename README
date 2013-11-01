@@ -1,0 +1,69 @@
+NAME
+    Mojolicious::Plugin::Ubic - Remote ubic admin
+
+VERSION
+    0.04
+
+SYNOPSIS
+      #!perl
+      use Mojolicious::Lite;
+
+      plugin Ubic => {
+        route => app->routes->route('/something/secure'),
+        json => {
+          some => 'default values',
+        },
+      };
+
+      app->start;
+
+DESCRIPTION
+    This Mojolicious plugin allow you to query status of the running Ubic
+    services and also start/stop/restart/reload/... them.
+
+    This is Ubic::Ping::Service on steroids.
+
+ACTIONS
+  index
+    Draw a tree using HTML.
+
+  proxy
+    This resource is used to proxy commands to other servers.
+
+  services
+      GET /services
+      GET /services/:service_name
+
+    Returns a json object with the services available and statuses:
+
+      {
+        "multi_service_name": {
+          "child_service_name": {
+            "status":"running"
+            ...
+          }
+          ...
+        }
+        ...
+      }
+
+  service
+      GET /:service_name
+      GET /:service_name/status
+      POST /:service_name/start
+      POST /:service_name/reload
+      POST /:service_name/restart
+      POST /:service_name/stop
+
+    Used to control a given service. The actions act like <ubic> from the
+    command line. The return value contain "status". Example:
+
+      {"status":"running"}
+
+METHODS
+  register
+    Will register the "ACTIONS" above.
+
+AUTHOR
+    Jan Henning Thorsen - "jhthorsen@cpan.org"
+
