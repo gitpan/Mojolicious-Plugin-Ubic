@@ -25,4 +25,4 @@ resources:
   homepage: https://metacpan.org/release/Mojolicious-Plugin-Ubic
   license: http://dev.perl.org/licenses/
   repository: git://github.com/jhthorsen/mojolicious-plugin-ubic
-version: 0.04
+version: 0.05
